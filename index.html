@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Squad Mathur Web Solutions</title>
+
+<style>
+
+body{
+margin:0;
+font-family: 'Segoe UI', sans-serif;
+background:#0b0f19;
+color:white;
+scroll-behavior:smooth;
+}
+
+nav{
+display:flex;
+justify-content:space-between;
+padding:20px 10%;
+background:rgba(0,0,0,0.6);
+position:fixed;
+width:100%;
+top:0;
+backdrop-filter:blur(10px);
+}
+
+nav h2{
+margin:0;
+color:#25D366;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+margin-left:20px;
+font-weight:500;
+}
+
+.hero{
+height:100vh;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+text-align:center;
+padding:20px;
+background:linear-gradient(135deg,#0f172a,#1e293b);
+}
+
+.hero h1{
+font-size:48px;
+max-width:800px;
+animation:fadeUp 1.5s ease;
+}
+
+.hero p{
+max-width:600px;
+opacity:0.8;
+margin:20px 0;
+animation:fadeUp 2s ease;
+}
+
+.btn{
+background:#25D366;
+padding:15px 30px;
+border-radius:50px;
+color:white;
+text-decoration:none;
+font-weight:bold;
+transition:0.3s;
+}
+
+.btn:hover{
+background:#1da851;
+transform:scale(1.05);
+}
+
+.section{
+padding:100px 10%;
+text-align:center;
+}
+
+.cards{
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+gap:30px;
+margin-top:40px;
+}
+
+.card{
+background:#111827;
+padding:30px;
+border-radius:15px;
+width:300px;
+transition:0.4s;
+box-shadow:0 0 20px rgba(0,0,0,0.3);
+}
+
+.card:hover{
+transform:translateY(-10px);
+box-shadow:0 0 30px rgba(37,211,102,0.4);
+}
+
+.pricing{
+background:#0f172a;
+}
+
+form{
+max-width:500px;
+margin:auto;
+display:flex;
+flex-direction:column;
+gap:15px;
+}
+
+input, textarea{
+padding:12px;
+border:none;
+border-radius:6px;
+}
+
+footer{
+text-align:center;
+padding:40px;
+background:#000;
+margin-top:50px;
+}
+
+@keyframes fadeUp{
+from{opacity:0; transform:translateY(40px);}
+to{opacity:1; transform:translateY(0);}
+}
+
+.whatsapp-float{
+position:fixed;
+bottom:20px;
+right:20px;
+background:#25D366;
+padding:15px 18px;
+border-radius:50px;
+text-decoration:none;
+color:white;
+font-weight:bold;
+box-shadow:0 0 15px rgba(0,0,0,0.4);
+}
+
+</style>
+</head>
+
+<body>
+
+<nav>
+<h2>Squad Mathur</h2>
+<div>
+<a href="#services">Services</a>
+<a href="#pricing">Pricing</a>
+<a href="#contact">Contact</a>
+</div>
+</nav>
+
+<div class="hero">
+<h1>We Build High-Converting Websites That Generate Real Revenue 🚀</h1>
+<p>Premium website systems for serious businesses ready to scale.</p>
+<a href="https://wa.me/919675840139?text=Hello%20I%20want%20a%20website" target="_blank" class="btn">Book Free Strategy Call</a>
+</div>
+
+<div class="section" id="services">
+<h2>Who We Help</h2>
+<div class="cards">
+
+<div class="card">
+<h3>Local Businesses</h3>
+<p>₹25K Premium Website Package</p>
+<p>✔ 5-7 Page Website<br>✔ Google Setup<br>✔ WhatsApp Leads</p>
+</div>
+
+<div class="card">
+<h3>Ecommerce Brands</h3>
+<p>₹50K+ Online Store</p>
+<p>✔ Full Store<br>✔ Payment Integration<br>✔ Conversion Design</p>
+</div>
+
+<div class="card">
+<h3>High-Ticket Businesses</h3>
+<p>₹1L+ Growth System</p>
+<p>✔ Funnels<br>✔ CRM Setup<br>✔ Automation</p>
+</div>
+
+</div>
+</div>
+
+<div class="section pricing" id="pricing">
+<h2>Why Choose Us?</h2>
+<p>✔ Premium Dark Luxury Design</p>
+<p>✔ Sales Focused Layout</p>
+<p>✔ Long Term Growth Partner</p>
+</div>
+
+<div class="section" id="contact">
+<h2>Get Free Website Strategy Plan</h2>
+
+<form action="https://formsubmit.co/mathur967584@gmail.com" method="POST">
+<input type="text" name="name" placeholder="Your Name" required>
+<input type="email" name="email" placeholder="Your Email" required>
+<textarea name="message" placeholder="Tell us about your business"></textarea>
+<button class="btn" type="submit">Send Inquiry</button>
+</form>
+
+</div>
+
+<footer>
+<p>Contact: 9675840139 | mathur967584@gmail.com</p>
+<p>© 2026 Squad Mathur Web Solutions. All Rights Reserved.</p>
+</footer>
+
+<a href="https://wa.me/919675840139" target="_blank" class="whatsapp-float">💬 Chat</a>
+
+</body>
+</html>
